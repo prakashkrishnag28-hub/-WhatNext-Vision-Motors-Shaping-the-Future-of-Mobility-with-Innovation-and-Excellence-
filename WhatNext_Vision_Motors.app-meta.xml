@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <comment>Custom application override</comment>
+        <content>standard__SalesforceFiles</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Default</type>
+    </actionOverrides>
+
+    <label>WhatNext Vision Motors</label>
+
+    <navType>Standard</navType>
+
+    <tabs>
+        <label>Home</label>
+        <name>standard-Home</name>
+    </tabs>
+
+    <tabs>
+        <label>Vehicles</label>
+        <name>Vehicle__c</name>
+    </tabs>
+
+    <tabs>
+        <label>Customers</label>
+        <name>Customer__c</name>
+    </tabs>
+
+    <tabs>
+        <label>Dealers</label>
+        <name>Dealer__c</name>
+    </tabs>
+
+    <tabs>
+        <label>Vehicle Orders</label>
+        <name>Vehicle_Order__c</name>
+    </tabs>
+
+    <tabs>
+        <label>Test Drives</label>
+        <name>Test_Drive__c</name>
+    </tabs>
+
+    <tabs>
+        <label>Service Requests</label>
+        <name>Service_Request__c</name>
+    </tabs>
+
+    <uiType>Lightning</uiType>
+    <utilityBar>WhatNext_Vision_Motors_UtilityBar</utilityBar>
+</CustomApplication>
